@@ -1,0 +1,51 @@
+.header {
+    
+    background-color: #1F2937;
+    
+ }
+ 
+ .main-title {
+    display: flex;
+ }
+ 
+ .title {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+ }
+ .main-title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ 
+ 
+ .second-text {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+ 
+ 
+ }
+ 
+ 
+ a {
+    text-decoration: none;
+    color: #E5E7EB
+ 
+ 
+   
+ }
+ .header-links {
+    display: flex;
+    flex: 1;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: space-around;
+ }
+ 
