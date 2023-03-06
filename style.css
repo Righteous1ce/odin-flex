@@ -69,4 +69,54 @@
    margin-left: 20px;
  }
  
+.h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.cards {
+   display: flex;
+   justify-content: space-around;
+
+}
+.text {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+
+.quote {
+   background-color: #E5E7EB;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   padding-left: 300px;
+   padding-right: 300px;
+   display: flex;
+   justify-content: center;
+   font-size: 36px;
+   color: #1F2937;
+}
+
+
+.call {
+   background-color: #3882F6;
+   color: #F9FAF8;
+   border: 20px;
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 150px;
+   margin-right: 150px;
+   padding: 50px;
+   border-radius:1em;
+}
+
+.footer {
+   background-color: #1F2937;
+   display: flex;
+   color: #F9FAF8;
+   justify-content: center;
+}
  
