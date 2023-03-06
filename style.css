@@ -1,5 +1,8 @@
 .header {
     background-color: #1F2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
  }
  
  .main-title {
@@ -8,8 +11,6 @@
  
  .title {
     display: flex;
-    padding-left: 150px;
-    flex: 1;
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -20,26 +21,31 @@
     font-weight: bolder;
     color: #F9FAF8;
     flex-wrap: wrap;
-    width: 50%;
+    width: 40%;
  }
  button {
     background-color: #3882F6;
     color: white;
     padding: 10px;
     border-radius:1em;
+    width: 100px;
  }
  
  .second-text {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
- 
- 
+ }
+
+ .section {
+   display: flex;
+   justify-content: space-around;
  }
  
  .splash {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     
  }
 
@@ -53,11 +59,14 @@
 
  .header-links {
     display: flex;
-    flex: 1;
+    justify-content: flex-end;
     list-style-type: none;
     font-size: 18px;
-    justify-content: flex-end;
-    padding-right: 150px;
+    margin-left: auto;
+ }
+
+ .header li {
+   margin-left: 20px;
  }
  
  
