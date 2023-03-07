@@ -78,14 +78,17 @@ a {
 
 .card-container {
    display: flex;
-   flex-direction: row;
    justify-content: space-around;
-   max-width: 400px;
    align-items: center;
-   max-width: 400px;
+ 
    
 }
 
+.card-container img{
+   width: 200px;
+   height: 250px;
+}
+/*
 .cards {
   display: flex;
 
@@ -96,17 +99,17 @@ a {
 }
 
 .cards img {
-   max-width: 100%;
+   max-width: 100px;
    height: auto;
    border: 2px solid #3882F6;
    border-radius:1em;
 }
-   
+
 
 .cards p {
    text-align: center;
 }
-
+*/
 
 .quote {
   background-color: #E5E7EB;
