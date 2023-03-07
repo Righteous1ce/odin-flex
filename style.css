@@ -86,7 +86,7 @@ a {
 .card-container img{
    width: 200px;
    height: 250px;
-   border: 2px solid #3882F6;
+   border: 5px solid #3882F6;
    border-radius:1em;
 }
 .card-container p{
@@ -111,6 +111,8 @@ a {
 
 
 .call {
+   display: flex;
+   justify-content: center;
   background-color: #3882F6;
   color: #F9FAF8;
   border: 20px;
@@ -121,6 +123,19 @@ a {
   margin-right: 150px;
   padding: 50px;
   border-radius:1em;
+}
+
+.words {
+  margin-left: 20px;
+  width: 50%; 
+  font-size: 20px; 
+}
+
+.bttn button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #F9FAF8;
 }
 
 .footer {
